@@ -9,6 +9,12 @@ public class Main{
         int var = 18; // this type is the most common used, can have values between -2147483648 and 2147483647
         long long_var; // used to represent numbers that are big
 
+        float float_var = 32.54F; // simple precision
+        double double_var = 24.235523; // double precision
 
+        String name = "Gustavo"; // string uses double commas and are used to short phrases/words.
+        char letter = 'A'; // use single comma and represents letters.
+
+        boolean true_or_false = true; // boolean type (doesnt need so much explanation)
     }
 }
