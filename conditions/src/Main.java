@@ -1,0 +1,12 @@
+public class Main{
+
+    static void main(String[] args){
+
+        int i = 0;
+        if(i >= 1){
+            System.out.println("i é maior que 0");
+        } else {
+            System.out.println("i NÃO é maior que 0.");
+        }
+    }
+}

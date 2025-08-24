@@ -7,7 +7,7 @@ public class Main{
         // -128 to 127;
         short short_var = 32767; // this type only can have values that are between -32679 and 32768
         int var = 18; // this type is the most common used, can have values between -2147483648 and 2147483647
-        long long_var; // used to represent numbers that are big
+        long long_var = 100000L; // used to represent numbers that are big
 
         float float_var = 32.54F; // simple precision
         double double_var = 24.235523; // double precision
