@@ -8,5 +8,10 @@ public class Main{
         } else {
             System.out.println("i NÃO é maior que 0.");
         }
+
+        for(i = 0; i < 5; i++){
+            int iSomado = i+1;
+            System.out.println("Olá, esse é o cumprimento Nº " + iSomado);
+        }
     }
 }
