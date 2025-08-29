@@ -18,7 +18,7 @@ public class Main{
             int_array_test[i] = scanner.nextInt();
         }
 
-        for(int i = 0; i <= int_array_test.length; i++){
+        for(int i = 0; i < int_array_test.length; i++){
             int i_somado = i+1;
             System.out.println("Numero " + i_somado + ": " + int_array_test[i]);
         }
@@ -38,8 +38,14 @@ public class Main{
         // in Java whe use get method and array index to access the value
         // PS: Only when we are using ArrayList!!!
 
-        my_list.remove(3) // removes 'VH' from my_list
-        my_list.remove("Gustavo") // we can remove the object using the string!
+        my_list.remove(3); // removes 'VH' from my_list
+        my_list.remove("Johann"); // we can remove the object using the string!
 
+        my_list.add("VH");
+        my_list.add("Johann");
+
+        for(int i = 0; i < my_list.size(); i++){
+            System.out.println(my_list.get(i));
+        }
     }
 }
